@@ -128,4 +128,70 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+a {
+	text-decoration: none;
+}
 /***** reset css end ******/
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+	font-family: 'Roboto', sans-serif !important;
+}
+
+body {
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+header,
+footer {
+	background-color: #1f2937;
+	padding: 20px;
+}
+
+main {
+	flex: 1;
+}
+
+header,
+header ul li a,
+footer {
+	color: #f9faf8;
+}
+
+header,
+header ul,
+footer {
+	display: flex;
+	gap: 20px;
+}
+
+header h1 {
+	font-size: 24px;
+	color: #f9faf8;
+}
+
+header ul,
+footer {
+	font-size: 18px;
+	color: #e5e7eb;
+}
+
+.wrapper {
+	display: flex;
+	width: 1200px;
+	margin: 0 auto;
+	justify-content: space-between;
+}
+
+footer {
+	justify-content: center;
+}
