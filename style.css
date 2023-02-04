@@ -192,6 +192,44 @@ footer {
 	justify-content: space-between;
 }
 
+header .wrapper {
+	align-items: center;
+}
+
+.hero-main {
+	display: flex;
+	gap: 50px;
+	padding: 50px 0;
+	background-color: #1f2937;
+}
+
+.hero-main__left h1 {
+	font-size: 48px;
+	font-weight: 900;
+	color: #f9faf8;
+}
+
+.hero-main__left p {
+	font-size: 18px;
+	color: #e5e7eb;
+    margin: 10px 0;
+}
+
+.hero-main__left button {
+    background-color: #3882f6;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+.hero-main__right img {
+	width: 500px;
+	height: 250px;
+	object-fit: cover;
+}
+
 footer {
 	justify-content: center;
 }
