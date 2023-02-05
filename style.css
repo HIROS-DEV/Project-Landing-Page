@@ -285,6 +285,42 @@ header .wrapper {
 	text-align: end;
 }
 
+.signup-section {
+	max-width: 1000px;
+	height: 150px;
+	margin: 60px auto;
+	background-color: #3882f6;
+	color: #f9faf8;
+	border-radius: 10px;
+}
+
+.signup-section__wrapper {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 100%;
+}
+
+.signup-text h1 {
+	font-weight: bold;
+	font-size: 24px;
+	margin-bottom: 5px;
+}
+
+.signup-text p {
+	font-size: 18px;
+	color: #e5e7eb;
+}
+
+.signup-button button {
+	background-color: #3882f6;
+	color: #e5e7eb;
+	padding: 10px 30px;
+	border: 1px solid #e5e7eb;
+	border-radius: 8px;
+	cursor: pointer;
+}
+
 footer {
 	justify-content: center;
 }
